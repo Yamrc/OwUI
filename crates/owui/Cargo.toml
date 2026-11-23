@@ -1,0 +1,20 @@
+[package]
+name = "owui"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+authors.workspace = true
+description = "GPU-native UI framework"
+keywords = ["desktop", "gui"]
+categories = ["gui"]
+repository = "https://github.com/Yamrc/NekoUI"
+license.workspace = true
+publish = true
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+bitflags.workspace = true
+slotmap.workspace = true
+thiserror.workspace = true
